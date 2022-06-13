@@ -1,0 +1,58 @@
+spines num : 2
+leafs num : 4
+mappers num : 6
+reducers num : 2
+S_CAL_ABILITY: 500
+L_CAL_ABILITY: 500
+LINK_BANDWIDTH: 1280
+mapper_task_type: [0, 1, 0, 1, 0, 1]
+reducer_task_type: [0, 1]
+
+solutions:
+X_s0_w0=0
+X_s0_w1=0
+X_s0_w2=0
+X_s0_w3=1
+X_s0_w4=0
+X_s0_w5=1
+X_s1_w0=1
+X_s1_w1=1
+X_s1_w2=1
+X_s1_w3=0
+X_s1_w4=1
+X_s1_w5=0
+Y_s0_w0=0
+Y_s0_w1=0
+Y_s0_w2=0
+Y_s0_w3=1
+Y_s0_w4=0
+Y_s0_w5=1
+Y_s1_w0=1
+Y_s1_w1=1
+Y_s1_w2=1
+Y_s1_w3=0
+Y_s1_w4=1
+Y_s1_w5=0
+lambda=0.0192422
+
+link cost(MB):
+S0-L0    0
+S0-L1    11.69
+S0-L2    11.69
+S0-L3    11.69
+S1-L0    12.94
+S1-L1    1.25
+S1-L2    1.25
+S1-L3    12.94
+L0-M0    1.25
+L0-M1    11.69
+L1-M2    1.25
+L1-M3    11.69
+L2-M4    1.25
+L2-M5    11.69
+L3-R0    1.25
+L3-R1    23.38
+
+
+total link cost:
+126.89999999999998

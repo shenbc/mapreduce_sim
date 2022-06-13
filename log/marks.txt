@@ -1,0 +1,20 @@
+spines num : 2
+leafs num : 4
+mappers num : 6
+reducers num : 2
+S_CAL_ABILITY: 500                      spine计算能力约束(MB)
+L_CAL_ABILITY: 500                      leaf计算能力约束(MB)
+LINK_BANDWIDTH: 1280                    带宽(边)约束(MB)
+mapper_task_type: [2, 2, 3, 3, 2, 3]    每个mapper的任务类型(参数大小)
+reducer_task_type: [2, 3]               每个reducer的任务类型(参数大小)
+
+solutions:                              每条流的边、边的终点处是否聚合、该边的流量
+
+link cost(MB):                          每条边的流量
+
+switch tran_cost(MB):                   每个交换机收到的数据大小
+
+switch cal_cost(MB):                    每个交换机聚合消耗算力(将3条100MB的流聚合消耗200MB)
+
+switch agg_info:                        每个交换机的聚合信息，例如
+L3 {0: [], 1: [], 2: [0, 4], 3: [2, 5]} 表示L3交换机对任务类型2的M0 M4发出的流聚合，对任务类型3的M2 M5发出的流聚合
